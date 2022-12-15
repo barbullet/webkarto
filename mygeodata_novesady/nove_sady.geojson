@@ -1,0 +1,83 @@
+{
+    "type": "FeatureCollection",
+    "name": "nove_sady",
+    "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+      },
+    "features": [
+        { "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                16.601172230900772,
+                49.18488764082164
+              ],
+              [
+                16.61484678107331,
+                49.18439576935171
+              ],
+              [
+                16.613642729044955,
+                49.19198409821246
+              ],
+              [
+                16.599710168491896,
+                49.19154850335431
+              ],
+              [
+                16.601172230900772,
+                49.18488764082164
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        }
+      },
+  {
+    "type": "Feature",
+    "geometry": {
+      "coordinates": [
+        16.60779341247286,
+        49.188509682139
+      ],
+      "type": "Point"
+    },
+    "properties": {
+        "namePoint": "střed řešeného území bakalářské práce",
+        "usage": "nevyužívaná plocha",
+        "nerabyPOI":
+            {
+              "culture": "Kostel sv. Petra a Pavla",
+              "sport": "DRGF Arena"
+            },
+        "revitalised": false
+        }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "coordinates": [
+        [
+          16.609052537714007,
+          49.18888398390274
+        ],
+        [
+          16.608389234953876,
+          49.187621455963495
+        ]
+      ],
+      "type": "LineString"
+    },
+    "properties": {
+        "namePoint": "Malá Amerika",
+        "usage": "kulturní plocha",
+        "revitalised": false
+        }    
+  }
+]
+}
+
